@@ -32,7 +32,7 @@ def sum_series(n, opt1=0, opt2=1):
     else:
       return ( sum_series(n-1, opt1, opt2) + sum_series(n-2, opt1, opt2) )
 
-print(sum_series(4, 1, 2)) 
+print(sum_series(4, 3, 4)) 
 
 if __name__ == "__main__":
   n = int(input())
