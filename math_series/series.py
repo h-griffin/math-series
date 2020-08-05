@@ -1,5 +1,6 @@
 #recursion call fib inside fib
 def fibonacci(n):
+    """recursivly calls to return the fibbonaci sequence of given value"""
   if n <= 0:
     return 0
   elif n == 1:
@@ -13,6 +14,7 @@ def fibonacci(n):
 
 #recursion lucas function
 def lucas(n):
+    """recursivly calls to return the lucas sequence of given value"""
   if n == 0:
     return 2
   elif n == 1:
